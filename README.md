@@ -1,3 +1,3 @@
-# Maksymilian Szmelczyński
+# web-technologies
 
-Technologie Web 
+Classes at the University of Gdansk (2018)
