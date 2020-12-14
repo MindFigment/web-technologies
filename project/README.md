@@ -1,6 +1,8 @@
 # project
 
-## Project setup
+Project for web technologies classes
+
+### Project setup
 ```
 npm install
 ```
