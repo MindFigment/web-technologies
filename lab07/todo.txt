@@ -1,0 +1,8 @@
+1. dopasowanie do parametrów gry
+2. kolory
+3. dom api
+4. less do stylu
+5. local storage lub ciasteczka
+
+insomnia.rest
+advanced rest client

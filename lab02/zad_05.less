@@ -1,0 +1,61 @@
+@border-px: 1px;
+@fwidth: 100%;
+@margin: 20px;
+
+body {
+
+    margin: @margin;
+    padding-top: 3px;
+
+    #menu {
+        margin-top: 20px;
+        height: 90%; /* 100% Full-height */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Stay on top */
+        top: @margin; /* Stay at the top */
+        left: @margin;
+        background-color: powderblue;
+        overflow-x: hidden; /* Disable horizontal scroll */
+        padding: 10px; /* Place content 60px from the top */
+        transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+        border-right-style: solid;
+        width: 19%;
+    }
+    
+    span {
+        display: block;
+    }
+    
+    #tresc {
+        transition: margin-left .5s;
+        padding-left: 200px;   
+    }
+
+    .el_menu {
+        text-align: center;
+        width: 100%;
+        border: solid;
+        border-width: @border-px;
+        padding: 1px;
+    }
+
+    #stopka {
+        position: fixed;
+        left: @margin;
+        bottom: @margin;
+        width: @fwidth;
+        background-color: red;
+        color: white;
+        text-align: center;
+    }
+
+    #naglowek {
+        position: fixed;
+        left: @margin;
+        top: @margin;
+        width: @fwidth;
+        background-color: blue;
+        color: white;
+        text-align: center;
+    }
+}

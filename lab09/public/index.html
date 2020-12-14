@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chat App</title>
+        <meta charset="UTF-8">
+        <script src = "/socket.io/socket.io.js"></script>
+        <script src="/js/script.js"></script>
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+    
+    <body>
+        <div id=loginDiv>
+            <input id="nicknameInp" type="text" name="name" value="" placeholder="Enter your nickname!">
+            <button id="nicknameBtn" type="button" name="button"> Let me chat! </button>
+        </div>
+        <div id="your-nickname">
+            <b>Nickname: </b> 
+        </div>
+        <div id="app">
+            <div id="rooms">
+                <b>List of rooms</b> 
+                <div id="rooms-window"> 
+                    <div id="list-of-rooms"></div>
+                    <div id="newRoomDiv">
+                        <input type="text" id="newRoomInp">
+                        <button type="button" id="newRoomBtn">New</button>
+                    </div>
+                </div>
+            </div>
+            <div id="chat">
+                <div id="current-chat">
+                    <b>Chat:</b> _____
+                </div>   
+                <div id="chat-window"> 
+                    <div id="list-of-messages"></div>
+                    <div id="sendMessageDiv">
+                        <input type="text" id="messageInp">
+                        <button type="button" id="messageBtn">Send</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+   </body>
+</html>
